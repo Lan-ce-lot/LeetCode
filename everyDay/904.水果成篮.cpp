@@ -19,7 +19,7 @@ public:
                 if (M[fruits[l]] == 0) {
                     M.erase(it);
                 }
-                l++;
+                l++; 
             }
             res = max(res, r - l + 1);
         }

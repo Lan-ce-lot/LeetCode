@@ -10,7 +10,7 @@ public:
         color[curnode] = nowcolor;
         for (auto& nextnode : g[curnode]) {
             if (color[nextnode] && color[nextnode] == color[curnode]) {
-                return false;
+                return false; 
             }
             if (!color[nextnode] && !dfs(nextnode, 3 ^ nowcolor, color, g)) {
                 return false;

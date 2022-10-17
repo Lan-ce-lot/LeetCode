@@ -17,7 +17,6 @@
  */
 class Solution {
 public:
-
     pair<ListNode*, ListNode*> r(ListNode* head, ListNode* tail) {
         ListNode* pre, *now = head, *nex = head->next;
         while (pre != tail) {
