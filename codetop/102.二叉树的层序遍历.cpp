@@ -23,7 +23,6 @@ public:
     }
     vector<vector<int>> levelOrder(TreeNode* root) {
         vector<vector<int> > V;
-
         // bfs
         queue<TreeNode*> Q;
         if (!root) {
