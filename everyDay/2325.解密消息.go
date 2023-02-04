@@ -15,7 +15,7 @@ func decodeMessage(key string, message string) (string) {
             cur++
         }
     }
-	m := []byte(message)
+    m := []byte(message)
     for i, c := range message {
         if c != ' ' {
             m[i] = rules[c]
